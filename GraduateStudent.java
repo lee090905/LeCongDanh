@@ -20,6 +20,6 @@ public class GraduateStudent extends Student {
         return total / grades.length;
     }
     public String toString(){
-        return super.toString() + "ResearchTopic: " + researchTopic + ", GPA: " + calculateGPA();
+        return super.toString() + ", ResearchTopic: " + researchTopic + ", GPA: " + calculateGPA();
     }
 }
