@@ -15,9 +15,9 @@ public class University {
 
     public static void main(String[] args) {
         University university = new University();
-        Student student1 = new InternationnalStuden("20021603", "A", 20,"VietNam");
-        Student student2 = new GraduateStudent("20021555", "B", 20,  "big data trong AI");
-        Student student3 = new UndergraduateStudent("20021566", "C", 20,"Công Nghệ Thông Tin");
+        Student student1 = new InternationnalStuden("1", "A", 20,"VietNam");
+        Student student2 = new GraduateStudent("2", "B", 20,  "big data trong AI");
+        Student student3 = new UndergraduateStudent("3", "C", 20,"Công Nghệ Thông Tin");
 
         university.addStudent(student1);
         university.addStudent(student2);
