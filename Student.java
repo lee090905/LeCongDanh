@@ -5,7 +5,7 @@ public abstract class Student {
     private String studentId;
     private String name;
     private int age;
-    public Student(String StudentId, String name, int age){
+    public Student(String studentId, String name, int age){
         this.studentId = studentId;
         this.name = name;
         this.age = age;
