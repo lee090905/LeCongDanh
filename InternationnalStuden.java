@@ -17,6 +17,6 @@ public class InternationnalStuden extends Student {
         return total / grades.length;
     }
     public String toString(){
-        return super.toString() + "Country: " + country + ", GPA: " + calculateGPA();
+        return super.toString() + ", Country: " + country + ", GPA: " + calculateGPA();
     }
 }
